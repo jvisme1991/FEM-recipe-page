@@ -138,7 +138,7 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.prep-time-list {
+ul {
   list-style-type: none;
 }
 
@@ -146,13 +146,13 @@ h3 {
   line-height: 3;
 }
  */
-.prep-time-list li::before {
+ul li::before {
   content: "\2022";
   color: var(--clr-primary-nutmeg);
   display: inline-block;
   width: 1.5em;
   margin-left: 0.4em;
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 main {
